@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="plugin" method="upgrade" group="raidplanner" version="2.5">
+<extension type="plugin" method="upgrade" group="raidplanner" version="3.0">
 	<name>RaidPlanner Lotro Theme</name>
 	<creationDate>2012-05-08</creationDate>
 	<author>Taracque</author>
@@ -24,14 +24,14 @@
 	</uninstall>
 	<media folder="media" destination="com_raidplanner">
 		<file destination="raid_icons">raid_icons/barad_guldur.png</file>
-		<file destination="raid_icons">raid_icons/carn_dûm.png</file>
+		<file destination="raid_icons">raid_icons/carn_dum.png</file>
 		<file destination="raid_icons">raid_icons/dar_narbugud.png</file>
-		<file destination="raid_icons">raid_icons/draigoch's_lair.png</file>
+		<file destination="raid_icons">raid_icons/draigochs_lair.png</file>
 		<file destination="raid_icons">raid_icons/helegrod.png</file>
 		<file destination="raid_icons">raid_icons/lord_of_the_rings.png</file>
 		<file destination="raid_icons">raid_icons/ost_dungoth.png</file>
 		<file destination="raid_icons">raid_icons/rp_event.png</file>
-		<file destination="raid_icons">raid_icons/the_rift_of_nûrz_ghâshu.png</file>
+		<file destination="raid_icons">raid_icons/the_rift_of_nurz_ghashu.png</file>
 		<file destination="raid_icons">raid_icons/the_tower_of_orthanc.png</file>
 		<file destination="raid_icons">raid_icons/the_vile_maw.png</file>
 		<file destination="role_icons">role_icons/role_heal.png</file>
@@ -50,6 +50,7 @@
 		<file destination="class_icons">class_icons/lotro_minstrel.png</file>
 		<file destination="class_icons">class_icons/lotro_rune_keeper.png</file>
 		<file destination="class_icons">class_icons/lotro_warden.png</file>
+		<file destination="class_icons">class_icons/lotro_beorning.png</file>
 		<file destionation="css">css/raidplanner_lotro.css</file>
 	</media>
 	<files>
@@ -63,4 +64,4 @@
 		<param type="text" name="lotro_api_key" label="API Key" />
 		<param type="text" name="world_name" label="World name" />
 	</params>
-</install>
+</extension>
