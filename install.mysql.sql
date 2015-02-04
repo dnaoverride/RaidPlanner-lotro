@@ -1,5 +1,5 @@
 INSERT IGNORE INTO `#__raidplanner_class` (`class_color`, `class_name`, `class_css`) SELECT '#C79C6E', 'Burglar', 'class_lotro_burglar' FROM DUAL WHERE (SELECT COUNT(*) FROM `#__raidplanner_class` WHERE `class_name`='Burglar')=0;
-INSERT IGNORE INTO `#__raidplanner_class` (`class_color`, `class_name`, `class_css`) SELECT '#F58CBA', 'Captain', 'class_lotro_captain' FROM DUAL WHERE (SELECT COUNT(*) FROM `#class_lotro_captain` WHERE `class_name`='Captain')=0;
+INSERT IGNORE INTO `#__raidplanner_class` (`class_color`, `class_name`, `class_css`) SELECT '#F58CBA', 'Captain', 'class_lotro_captain' FROM DUAL WHERE (SELECT COUNT(*) FROM `#__raidplanner_class` WHERE `class_name`='Captain')=0;
 INSERT IGNORE INTO `#__raidplanner_class` (`class_color`, `class_name`, `class_css`) SELECT '#ABD473', 'Champion', 'class_lotro_champion' FROM DUAL WHERE (SELECT COUNT(*) FROM `#__raidplanner_class` WHERE `class_name`='Champion')=0;
 INSERT IGNORE INTO `#__raidplanner_class` (`class_color`, `class_name`, `class_css`) SELECT '#558A84', 'Guardian', 'class_lotro_guardian' FROM DUAL WHERE (SELECT COUNT(*) FROM `#__raidplanner_class` WHERE `class_name`='Guardian')=0;
 INSERT IGNORE INTO `#__raidplanner_class` (`class_color`, `class_name`, `class_css`) SELECT '#ABD473', 'Hunter', 'class_lotro_hunter' FROM DUAL WHERE (SELECT COUNT(*) FROM `#__raidplanner_class` WHERE `class_name`='Hunter')=0;
@@ -7,6 +7,7 @@ INSERT IGNORE INTO `#__raidplanner_class` (`class_color`, `class_name`, `class_c
 INSERT IGNORE INTO `#__raidplanner_class` (`class_color`, `class_name`, `class_css`) SELECT '#8CA5A3', 'Minstrel', 'class_lotro_minstrel' FROM DUAL WHERE (SELECT COUNT(*) FROM `#__raidplanner_class` WHERE `class_name`='Minstrel')=0;
 INSERT IGNORE INTO `#__raidplanner_class` (`class_color`, `class_name`, `class_css`) SELECT '#69CCF0', 'Rune-keeper', 'class_lotro_rune_keeper' FROM DUAL WHERE (SELECT COUNT(*) FROM `#__raidplanner_class` WHERE `class_name`='Rune-keeper')=0;
 INSERT IGNORE INTO `#__raidplanner_class` (`class_color`, `class_name`, `class_css`) SELECT '#A49900', 'Warden', 'class_lotro_warden' FROM DUAL WHERE (SELECT COUNT(*) FROM `#__raidplanner_class` WHERE `class_name`='Warden')=0;
+INSERT IGNORE INTO `#__raidplanner_class` (`class_color`, `class_name`, `class_css`) SELECT '#403000', 'Beorning', 'class_lotro_beorning' FROM DUAL WHERE (SELECT COUNT(*) FROM `#__raidplanner_class` WHERE `class_name`='Beorning')=0;
 
 INSERT IGNORE INTO `#__raidplanner_race` (`race_name`) SELECT 'Race of Man' FROM DUAL WHERE (SELECT COUNT(*) FROM `#__raidplanner_race` WHERE `race_name`='Race of Man')=0;
 INSERT IGNORE INTO `#__raidplanner_race` (`race_name`) SELECT 'Hobbit' FROM DUAL WHERE (SELECT COUNT(*) FROM `#__raidplanner_race` WHERE `race_name`='Hobbit')=0;
